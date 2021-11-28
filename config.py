@@ -14,7 +14,7 @@ import hashlib
 VPOWER_DEBUG = False
 
 CONFIG = ConfigParser()
-_CONFIG_FILENAME = 'vpower.cfg'
+_CONFIG_FILENAME = 'config.cfg'
 # If there's a command-line argument, it's the location of the config file
 if len(sys.argv) > 1:
     _CONFIG_FILENAME = sys.argv[1]

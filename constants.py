@@ -4,7 +4,7 @@ SPEED_DEVICE_TYPE = 0x7B
 CADENCE_DEVICE_TYPE = 0x7A
 SPEED_CADENCE_DEVICE_TYPE = 0x79
 POWER_DEVICE_TYPE = 0x0B
-
+STRIDE_SENSOR_TYPE = 0x7C
 
 # Get the serial number of Raspberry Pi or PC CPU (Windows)
 def getserial():
